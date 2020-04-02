@@ -1,4 +1,6 @@
 # Doral Academy NOV8
+All site files are located in this [folder](htdocs).
+
 ## TODO:
  * Finish 'FUN_currPer.php'
  * Fix 'addPerson.php' page.
