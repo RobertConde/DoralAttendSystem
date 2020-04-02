@@ -1,0 +1,324 @@
+7:37:35 AM  [main] 	Initializing Control Panel
+7:37:35 AM  [main] 	Windows Version:  Home  64-bit
+7:37:35 AM  [main] 	XAMPP Version: 7.4.3
+7:37:35 AM  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+7:37:35 AM  [main] 	You are not running with administrator rights! This will work for
+7:37:35 AM  [main] 	most application stuff but whenever you do something with services
+7:37:35 AM  [main] 	there will be a security dialogue or things will break! So think 
+7:37:35 AM  [main] 	about running this application with administrator rights!
+7:37:35 AM  [main] 	XAMPP Installation Directory: "c:\users\rcond\google drive\nov8\attendance system\xampp\"
+7:37:35 AM  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+7:37:35 AM  [main] 	Checking for prerequisites
+7:37:35 AM  [main] 	All prerequisites found
+7:37:35 AM  [main] 	Initializing Modules
+7:37:35 AM  [main] 	Starting Check-Timer
+7:37:35 AM  [main] 	Control Panel Ready
+7:37:40 AM  [Apache] 	Attempting to start Apache app...
+7:37:40 AM  [Apache] 	Status change detected: running
+7:37:40 AM  [mysql] 	Attempting to start MySQL app...
+7:37:40 AM  [mysql] 	Status change detected: running
+12:03:23 PM  [mercury] 	Attempting to start Mercury app...
+12:03:24 PM  [mercury] 	Status change detected: running
+12:12:44 PM  [mercury] 	Attempting to stop Mercury (PID: 12560)
+12:12:44 PM  [mercury] 	Status change detected: stopped
+12:16:47 PM  [Apache] 	Attempting to stop Apache (PID: 17320)
+12:16:47 PM  [Apache] 	Attempting to stop Apache (PID: 17896)
+12:16:47 PM  [mysql] 	Attempting to stop MySQL app...
+12:16:47 PM  [Apache] 	Status change detected: stopped
+12:16:47 PM  [mysql] 	Status change detected: stopped
+12:16:48 PM  [Apache] 	Attempting to start Apache app...
+12:16:48 PM  [Apache] 	Status change detected: running
+12:16:49 PM  [mysql] 	Attempting to start MySQL app...
+12:16:49 PM  [mysql] 	Status change detected: running
+12:20:16 PM  [Apache] 	Attempting to stop Apache (PID: 21320)
+12:20:16 PM  [Apache] 	Attempting to stop Apache (PID: 14608)
+12:20:16 PM  [mysql] 	Attempting to stop MySQL app...
+12:20:16 PM  [Apache] 	Status change detected: stopped
+12:20:16 PM  [mysql] 	Status change detected: stopped
+12:20:17 PM  [Apache] 	Attempting to start Apache app...
+12:20:17 PM  [Apache] 	Status change detected: running
+12:20:18 PM  [mysql] 	Attempting to start MySQL app...
+12:20:18 PM  [mysql] 	Status change detected: running
+12:25:11 PM  [mercury] 	Attempting to start Mercury app...
+12:25:11 PM  [mercury] 	Status change detected: running
+12:25:11 PM  [mercury] 	Attempting to stop Mercury (PID: 13320)
+12:25:12 PM  [mercury] 	Status change detected: stopped
+12:25:12 PM  [filezilla] 	Attempting to start FileZilla app...
+12:25:12 PM  [filezilla] 	Status change detected: running
+12:25:13 PM  [filezilla] 	Attempting to stop FileZilla app...
+12:25:13 PM  [filezilla] 	Status change detected: stopped
+9:18:47 AM  [main] 	Deinitializing Modules
+9:18:47 AM  [main] 	Deinitializing Control Panel
+
+10:20:26 AM  [main] 	Initializing Control Panel
+10:20:26 AM  [main] 	Windows Version:  Home  64-bit
+10:20:26 AM  [main] 	XAMPP Version: 7.4.3
+10:20:26 AM  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+10:20:26 AM  [main] 	You are not running with administrator rights! This will work for
+10:20:26 AM  [main] 	most application stuff but whenever you do something with services
+10:20:26 AM  [main] 	there will be a security dialogue or things will break! So think 
+10:20:26 AM  [main] 	about running this application with administrator rights!
+10:20:26 AM  [main] 	XAMPP Installation Directory: "c:\users\rcond\google drive\nov8\attendance system\xampp\"
+10:20:26 AM  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+10:20:26 AM  [main] 	Checking for prerequisites
+10:20:27 AM  [main] 	All prerequisites found
+10:20:27 AM  [main] 	Initializing Modules
+10:20:27 AM  [main] 	Starting Check-Timer
+10:20:27 AM  [main] 	Control Panel Ready
+10:21:00 AM  [Apache] 	Attempting to start Apache app...
+10:21:00 AM  [Apache] 	Status change detected: running
+10:21:01 AM  [mysql] 	Attempting to start MySQL app...
+10:21:01 AM  [mysql] 	Status change detected: running
+8:11:49 PM  [mysql] 	Status change detected: stopped
+8:11:49 PM  [mysql] 	Error: MySQL shutdown unexpectedly.
+8:11:49 PM  [mysql] 	This may be due to a blocked port, missing dependencies, 
+8:11:49 PM  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+8:11:49 PM  [mysql] 	Press the Logs button to view error logs and check
+8:11:49 PM  [mysql] 	the Windows Event Viewer for more clues
+8:11:49 PM  [mysql] 	If you need more help, copy and post this
+8:11:49 PM  [mysql] 	entire log window on the forums
+8:11:51 PM  [Apache] 	Status change detected: stopped
+8:11:51 PM  [Apache] 	Error: Apache shutdown unexpectedly.
+8:11:51 PM  [Apache] 	This may be due to a blocked port, missing dependencies, 
+8:11:51 PM  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+8:11:51 PM  [Apache] 	Press the Logs button to view error logs and check
+8:11:51 PM  [Apache] 	the Windows Event Viewer for more clues
+8:11:51 PM  [Apache] 	If you need more help, copy and post this
+8:11:51 PM  [Apache] 	entire log window on the forums
+8:11:52 PM  [Apache] 	Status change detected: running
+8:11:52 PM  [mysql] 	Status change detected: running
+8:13:28 AM  [main] 	Deinitializing Modules
+8:13:28 AM  [main] 	Deinitializing Control Panel
+
+8:11:46 PM  [main] 	Initializing Control Panel
+8:11:46 PM  [main] 	Windows Version:  Home  64-bit
+8:11:46 PM  [main] 	XAMPP Version: 7.4.3
+8:11:46 PM  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+8:11:46 PM  [main] 	You are not running with administrator rights! This will work for
+8:11:46 PM  [main] 	most application stuff but whenever you do something with services
+8:11:46 PM  [main] 	there will be a security dialogue or things will break! So think 
+8:11:46 PM  [main] 	about running this application with administrator rights!
+8:11:46 PM  [main] 	XAMPP Installation Directory: "c:\users\rcond\google drive\nov8\attendance system\xampp\"
+8:11:46 PM  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+8:11:46 PM  [main] 	Checking for prerequisites
+8:11:47 PM  [main] 	All prerequisites found
+8:11:47 PM  [main] 	Initializing Modules
+8:11:47 PM  [Apache] 	XAMPP Apache is already running on port 80
+8:11:47 PM  [Apache] 	XAMPP Apache is already running on port 443
+8:11:47 PM  [main] 	Starting Check-Timer
+8:11:47 PM  [main] 	Control Panel Ready
+8:11:49 PM  [mysql] 	Attempting to stop MySQL app...
+8:11:49 PM  [mysql] 	Status change detected: stopped
+8:11:50 PM  [Apache] 	Attempting to stop Apache (PID: 6244)
+8:11:50 PM  [Apache] 	Attempting to stop Apache (PID: 12472)
+8:11:51 PM  [Apache] 	Status change detected: stopped
+8:11:51 PM  [Apache] 	Attempting to start Apache app...
+8:11:52 PM  [Apache] 	Status change detected: running
+8:11:52 PM  [mysql] 	Attempting to start MySQL app...
+8:11:52 PM  [mysql] 	Status change detected: running
+8:13:30 AM  [main] 	Deinitializing Modules
+8:13:30 AM  [main] 	Deinitializing Control Panel
+
+8:13:34 AM  [main] 	Initializing Control Panel
+8:13:34 AM  [main] 	Windows Version:  Home  64-bit
+8:13:34 AM  [main] 	XAMPP Version: 7.4.3
+8:13:34 AM  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+8:13:34 AM  [main] 	You are not running with administrator rights! This will work for
+8:13:34 AM  [main] 	most application stuff but whenever you do something with services
+8:13:34 AM  [main] 	there will be a security dialogue or things will break! So think 
+8:13:34 AM  [main] 	about running this application with administrator rights!
+8:13:34 AM  [main] 	XAMPP Installation Directory: "c:\users\rcond\google drive\nov8\attendance system\xampp\"
+8:13:34 AM  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+8:13:34 AM  [main] 	Checking for prerequisites
+8:13:34 AM  [main] 	All prerequisites found
+8:13:34 AM  [main] 	Initializing Modules
+8:13:34 AM  [Apache] 	XAMPP Apache is already running on port 80
+8:13:34 AM  [Apache] 	XAMPP Apache is already running on port 443
+8:13:34 AM  [mysql] 	XAMPP MySQL is already running on port 3306
+8:13:34 AM  [main] 	Starting Check-Timer
+8:13:34 AM  [main] 	Control Panel Ready
+8:13:36 AM  [mysql] 	Attempting to stop MySQL app...
+8:13:37 AM  [Apache] 	Attempting to stop Apache (PID: 12448)
+8:13:37 AM  [Apache] 	Attempting to stop Apache (PID: 9200)
+8:13:37 AM  [Apache] 	Status change detected: stopped
+8:13:37 AM  [mysql] 	Status change detected: stopped
+8:13:38 AM  [mysql] 	Attempting to start MySQL app...
+8:13:38 AM  [mysql] 	Status change detected: running
+8:13:39 AM  [Apache] 	Attempting to start Apache app...
+8:13:39 AM  [Apache] 	Status change detected: running
+4:37:05 PM  [mysql] 	Attempting to stop MySQL app...
+4:37:05 PM  [mysql] 	Status change detected: stopped
+4:37:06 PM  [Apache] 	Attempting to stop Apache (PID: 19452)
+4:37:06 PM  [Apache] 	Attempting to stop Apache (PID: 14608)
+4:37:06 PM  [Apache] 	Status change detected: stopped
+4:37:06 PM  [Apache] 	Attempting to start Apache app...
+4:37:07 PM  [mysql] 	Attempting to start MySQL app...
+4:37:07 PM  [Apache] 	Status change detected: running
+4:37:07 PM  [mysql] 	Status change detected: running
+10:06:41 PM  [main] 	Deinitializing Modules
+10:06:41 PM  [main] 	Deinitializing Control Panel
+
+8:27:36 AM  [main] 	Initializing Control Panel
+8:27:36 AM  [main] 	Windows Version:  Home  64-bit
+8:27:36 AM  [main] 	XAMPP Version: 7.4.3
+8:27:36 AM  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+8:27:36 AM  [main] 	You are not running with administrator rights! This will work for
+8:27:36 AM  [main] 	most application stuff but whenever you do something with services
+8:27:36 AM  [main] 	there will be a security dialogue or things will break! So think 
+8:27:36 AM  [main] 	about running this application with administrator rights!
+8:27:36 AM  [main] 	XAMPP Installation Directory: "c:\users\rcond\google drive\nov8\attendance system\xampp\"
+8:27:36 AM  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+8:27:36 AM  [main] 	Checking for prerequisites
+8:27:36 AM  [main] 	All prerequisites found
+8:27:36 AM  [main] 	Initializing Modules
+8:27:36 AM  [main] 	Starting Check-Timer
+8:27:36 AM  [main] 	Control Panel Ready
+8:27:48 AM  [main] 	Deinitializing Modules
+8:27:48 AM  [main] 	Deinitializing Control Panel
+
+8:27:51 AM  [main] 	Initializing Control Panel
+8:27:51 AM  [main] 	Windows Version:  Home  64-bit
+8:27:51 AM  [main] 	XAMPP Version: 7.4.3
+8:27:51 AM  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+8:27:51 AM  [main] 	You are not running with administrator rights! This will work for
+8:27:51 AM  [main] 	most application stuff but whenever you do something with services
+8:27:51 AM  [main] 	there will be a security dialogue or things will break! So think 
+8:27:51 AM  [main] 	about running this application with administrator rights!
+8:27:51 AM  [main] 	XAMPP Installation Directory: "c:\users\rcond\google drive\nov8\attendance system\xampp\"
+8:27:51 AM  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+8:27:51 AM  [main] 	Checking for prerequisites
+8:27:51 AM  [main] 	All prerequisites found
+8:27:51 AM  [main] 	Initializing Modules
+8:27:51 AM  [main] 	Enabling autostart for module "Apache"
+8:27:51 AM  [main] 	Enabling autostart for module "MySQL"
+8:27:51 AM  [main] 	Starting Check-Timer
+8:27:51 AM  [main] 	Control Panel Ready
+8:27:51 AM  [Apache] 	Autostart active: starting...
+8:27:51 AM  [Apache] 	Attempting to start Apache app...
+8:27:51 AM  [mysql] 	Autostart active: starting...
+8:27:51 AM  [mysql] 	Attempting to start MySQL app...
+8:27:52 AM  [Apache] 	Status change detected: running
+8:27:52 AM  [mysql] 	Status change detected: running
+1:55:58 PM  [Apache] 	Status change detected: stopped
+1:55:58 PM  [Apache] 	Error: Apache shutdown unexpectedly.
+1:55:58 PM  [Apache] 	This may be due to a blocked port, missing dependencies, 
+1:55:58 PM  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+1:55:58 PM  [Apache] 	Press the Logs button to view error logs and check
+1:55:58 PM  [Apache] 	the Windows Event Viewer for more clues
+1:55:58 PM  [Apache] 	If you need more help, copy and post this
+1:55:58 PM  [Apache] 	entire log window on the forums
+1:55:59 PM  [main] 	Deinitializing Modules
+1:55:59 PM  [main] 	Deinitializing Control Panel
+
+8:16:29 PM  [main] 	Initializing Control Panel
+8:16:29 PM  [main] 	Windows Version:  Home  64-bit
+8:16:29 PM  [main] 	XAMPP Version: 7.4.3
+8:16:29 PM  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+8:16:29 PM  [main] 	You are not running with administrator rights! This will work for
+8:16:29 PM  [main] 	most application stuff but whenever you do something with services
+8:16:29 PM  [main] 	there will be a security dialogue or things will break! So think 
+8:16:29 PM  [main] 	about running this application with administrator rights!
+8:16:29 PM  [main] 	XAMPP Installation Directory: "c:\users\rcond\google drive\nov8\attendance system\xampp\"
+8:16:29 PM  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+8:16:29 PM  [main] 	Checking for prerequisites
+8:16:30 PM  [main] 	All prerequisites found
+8:16:30 PM  [main] 	Initializing Modules
+8:16:30 PM  [main] 	Enabling autostart for module "Apache"
+8:16:30 PM  [main] 	Enabling autostart for module "MySQL"
+8:16:30 PM  [main] 	Starting Check-Timer
+8:16:30 PM  [main] 	Control Panel Ready
+8:16:30 PM  [Apache] 	Autostart active: starting...
+8:16:30 PM  [Apache] 	Attempting to start Apache app...
+8:16:30 PM  [mysql] 	Autostart active: starting...
+8:16:30 PM  [mysql] 	Attempting to start MySQL app...
+8:16:31 PM  [Apache] 	Status change detected: running
+8:16:31 PM  [mysql] 	Status change detected: running
+8:51:59 PM  [mysql] 	Status change detected: stopped
+8:51:59 PM  [mysql] 	Error: MySQL shutdown unexpectedly.
+8:51:59 PM  [mysql] 	This may be due to a blocked port, missing dependencies, 
+8:51:59 PM  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+8:51:59 PM  [mysql] 	Press the Logs button to view error logs and check
+8:51:59 PM  [mysql] 	the Windows Event Viewer for more clues
+8:51:59 PM  [mysql] 	If you need more help, copy and post this
+8:51:59 PM  [mysql] 	entire log window on the forums
+8:52:00 PM  [Apache] 	Status change detected: stopped
+8:52:00 PM  [Apache] 	Error: Apache shutdown unexpectedly.
+8:52:00 PM  [Apache] 	This may be due to a blocked port, missing dependencies, 
+8:52:00 PM  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+8:52:00 PM  [Apache] 	Press the Logs button to view error logs and check
+8:52:00 PM  [Apache] 	the Windows Event Viewer for more clues
+8:52:00 PM  [Apache] 	If you need more help, copy and post this
+8:52:00 PM  [Apache] 	entire log window on the forums
+8:53:19 PM  [Apache] 	Status change detected: running
+8:53:20 PM  [mysql] 	Status change detected: running
+9:46:59 PM  [main] 	Deinitializing Modules
+9:46:59 PM  [main] 	Deinitializing Control Panel
+
+2:48:30 PM  [main] 	Initializing Control Panel
+2:48:30 PM  [main] 	Windows Version:  Home  64-bit
+2:48:30 PM  [main] 	XAMPP Version: 7.4.3
+2:48:30 PM  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+2:48:30 PM  [main] 	You are not running with administrator rights! This will work for
+2:48:30 PM  [main] 	most application stuff but whenever you do something with services
+2:48:30 PM  [main] 	there will be a security dialogue or things will break! So think 
+2:48:30 PM  [main] 	about running this application with administrator rights!
+2:48:30 PM  [main] 	XAMPP Installation Directory: "c:\users\rcond\google drive\nov8\attendance system\xampp\"
+2:48:30 PM  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+2:48:30 PM  [main] 	Checking for prerequisites
+2:48:33 PM  [main] 	All prerequisites found
+2:48:33 PM  [main] 	Initializing Modules
+2:48:33 PM  [main] 	Enabling autostart for module "Apache"
+2:48:33 PM  [main] 	Enabling autostart for module "MySQL"
+2:48:33 PM  [main] 	Starting Check-Timer
+2:48:33 PM  [main] 	Control Panel Ready
+2:48:33 PM  [Apache] 	Autostart active: starting...
+2:48:33 PM  [Apache] 	Attempting to start Apache app...
+2:48:33 PM  [mysql] 	Autostart active: starting...
+2:48:33 PM  [mysql] 	Attempting to start MySQL app...
+2:48:34 PM  [Apache] 	Status change detected: running
+2:48:34 PM  [mysql] 	Status change detected: running
+10:42:04 PM  [main] 	Deinitializing Modules
+10:42:04 PM  [main] 	Deinitializing Control Panel
+
+4:35:27 PM  [main] 	Initializing Control Panel
+4:35:27 PM  [main] 	Windows Version:  Home  64-bit
+4:35:27 PM  [main] 	XAMPP Version: 7.4.3
+4:35:27 PM  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+4:35:27 PM  [main] 	You are not running with administrator rights! This will work for
+4:35:27 PM  [main] 	most application stuff but whenever you do something with services
+4:35:27 PM  [main] 	there will be a security dialogue or things will break! So think 
+4:35:27 PM  [main] 	about running this application with administrator rights!
+4:35:27 PM  [main] 	XAMPP Installation Directory: "c:\users\rcond\google drive\nov8\attendance system\xampp\"
+4:35:27 PM  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+4:35:27 PM  [main] 	Checking for prerequisites
+4:35:29 PM  [main] 	All prerequisites found
+4:35:29 PM  [main] 	Initializing Modules
+4:35:29 PM  [main] 	Enabling autostart for module "Apache"
+4:35:29 PM  [main] 	Enabling autostart for module "MySQL"
+4:35:29 PM  [main] 	Starting Check-Timer
+4:35:29 PM  [main] 	Control Panel Ready
+4:35:29 PM  [Apache] 	Autostart active: starting...
+4:35:29 PM  [Apache] 	Attempting to start Apache app...
+4:35:29 PM  [mysql] 	Autostart active: starting...
+4:35:29 PM  [mysql] 	Attempting to start MySQL app...
+4:35:30 PM  [Apache] 	Status change detected: running
+4:35:30 PM  [mysql] 	Status change detected: running
+3:23:24 PM  [mysql] 	Status change detected: stopped
+3:23:24 PM  [mysql] 	Error: MySQL shutdown unexpectedly.
+3:23:24 PM  [mysql] 	This may be due to a blocked port, missing dependencies, 
+3:23:24 PM  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+3:23:24 PM  [mysql] 	Press the Logs button to view error logs and check
+3:23:24 PM  [mysql] 	the Windows Event Viewer for more clues
+3:23:24 PM  [mysql] 	If you need more help, copy and post this
+3:23:24 PM  [mysql] 	entire log window on the forums
+3:23:25 PM  [Apache] 	Status change detected: stopped
+3:23:25 PM  [Apache] 	Error: Apache shutdown unexpectedly.
+3:23:25 PM  [Apache] 	This may be due to a blocked port, missing dependencies, 
+3:23:25 PM  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+3:23:25 PM  [Apache] 	Press the Logs button to view error logs and check
+3:23:25 PM  [Apache] 	the Windows Event Viewer for more clues
+3:23:25 PM  [Apache] 	If you need more help, copy and post this
+3:23:25 PM  [Apache] 	entire log window on the forums
+3:23:28 PM  [main] 	Deinitializing Modules
+3:23:28 PM  [main] 	Deinitializing Control Panel
+

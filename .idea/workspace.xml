@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="750ab89b-9deb-4e95-9133-c754ff95cece" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/phpMyAdmin/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../xampp\exportToHTML" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="xampp" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/williamdes/mariadb-mysql-kbs" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/composer" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/pragmarx/google2fa-qrcode" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/phpmyadmin/motranslator" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/phpmyadmin/sql-parser" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/phpmyadmin/shapefile" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/samyoul/u2f-php-server" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/google/recaptcha" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/phpMyAdmin/vendor/symfony/polyfill-ctype" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1ZH54qBBAcQR4U4Pj9cZu3uvLUR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rcond\Google Drive\NOV8\Attendance System\xampp\htdocs\functions" />
+      <recent name="C:\Users\rcond\Google Drive\NOV8\Attendance System\xampp\htdocs" />
+      <recent name="C:\Users\rcond\Google Drive\NOV8\Attendance System\xampp\htdocs\config" />
+      <recent name="C:\Users\rcond\Google Drive\NOV8\Attendance System\xampp\htdocs\include" />
+      <recent name="C:\Users\rcond\Google Drive\NOV8\Attendance System\xampp\customFunctions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.connectSQL.php">
+    <configuration name="addPerson.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/xampp/htdocs/addPerson.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="connectSQL.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/htdocs/require/connectSQL.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.connectSQL.php" />
+        <item itemvalue="JavaScript Debug.addPerson.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="750ab89b-9deb-4e95-9133-c754ff95cece" name="Default Changelist" comment="" />
+      <created>1584482990987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584482990987</updated>
+      <workItem from="1584482992259" duration="1389000" />
+      <workItem from="1584484495426" duration="7103000" />
+      <workItem from="1584540792327" duration="11322000" />
+      <workItem from="1584564984808" duration="2377000" />
+      <workItem from="1584567417906" duration="4430000" />
+      <workItem from="1584574686514" duration="5005000" />
+      <workItem from="1584580885220" duration="14000" />
+      <workItem from="1584618091578" duration="9000" />
+      <workItem from="1584619951876" duration="3000" />
+      <workItem from="1584619958774" duration="4819000" />
+      <workItem from="1584648964001" duration="11798000" />
+      <workItem from="1584708261152" duration="420000" />
+      <workItem from="1584708698691" duration="4620000" />
+      <workItem from="1585178598530" duration="3000" />
+      <workItem from="1585181616158" duration="4265000" />
+      <workItem from="1585248006816" duration="13759000" />
+      <workItem from="1585427630905" duration="8540000" />
+      <workItem from="1585577490238" duration="7500000" />
+      <workItem from="1585851009803" duration="1142000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="457" y="71" key="#PHP" timestamp="1584566464784">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="457" y="71" key="#PHP/0.0.1500.960/3000.177.1536.824@0.0.1500.960" timestamp="1584566464784" />
+    <state x="343" y="139" key="#SQL_Dialects" timestamp="1584568994793">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="343" y="139" key="#SQL_Dialects/0.0.1500.960/3000.177.1536.824@0.0.1500.960" timestamp="1584568994793" />
+    <state x="343" y="139" key="#SQL_Resolution_Scopes" timestamp="1584620314051">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="343" y="139" key="#SQL_Resolution_Scopes/0.0.1500.960/3000.177.1536.824@0.0.1500.960" timestamp="1584620314051" />
+    <state x="343" y="139" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584569159655">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="343" y="139" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960/3000.177.1536.824@0.0.1500.960" timestamp="1584569159655" />
+    <state x="509" y="342" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1584575574005">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="509" y="342" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1500.960/3000.177.1536.824@0.0.1500.960" timestamp="1584575574005" />
+    <state width="705" height="255" key="GridCell.Tab.0.bottom" timestamp="1585450195867">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1000" height="256" key="GridCell.Tab.0.bottom/0.0.1500.960/3000.177.1536.824@0.0.1500.960" timestamp="1584620451867" />
+    <state width="705" height="255" key="GridCell.Tab.0.bottom/0.0.1500.960/3000.370.1536.824@0.0.1500.960" timestamp="1585450195867" />
+    <state width="705" height="255" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1585446215394" />
+    <state width="705" height="255" key="GridCell.Tab.0.center" timestamp="1585450195867">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1000" height="256" key="GridCell.Tab.0.center/0.0.1500.960/3000.177.1536.824@0.0.1500.960" timestamp="1584620451867" />
+    <state width="705" height="255" key="GridCell.Tab.0.center/0.0.1500.960/3000.370.1536.824@0.0.1500.960" timestamp="1585450195867" />
+    <state width="705" height="255" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1585446215393" />
+    <state width="705" height="255" key="GridCell.Tab.0.left" timestamp="1585450195867">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1000" height="256" key="GridCell.Tab.0.left/0.0.1500.960/3000.177.1536.824@0.0.1500.960" timestamp="1584620451866" />
+    <state width="705" height="255" key="GridCell.Tab.0.left/0.0.1500.960/3000.370.1536.824@0.0.1500.960" timestamp="1585450195867" />
+    <state width="705" height="255" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1585446215393" />
+    <state width="705" height="255" key="GridCell.Tab.0.right" timestamp="1585450195867">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1000" height="256" key="GridCell.Tab.0.right/0.0.1500.960/3000.177.1536.824@0.0.1500.960" timestamp="1584620451867" />
+    <state width="705" height="255" key="GridCell.Tab.0.right/0.0.1500.960/3000.370.1536.824@0.0.1500.960" timestamp="1585450195867" />
+    <state width="705" height="255" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1585446215394" />
+    <state x="454" y="264" key="NewPhpClassDialog" timestamp="1585273280119">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="3465" y="404" key="NewPhpClassDialog/0.0.1500.960/3000.177.1536.824@3000.177.1536.824" timestamp="1584552341703" />
+    <state x="454" y="264" key="NewPhpClassDialog/0.0.1500.960@0.0.1500.960" timestamp="1585273280119" />
+    <state x="3604" y="706" key="NewPhpFileDialog" timestamp="1585581964184">
+      <screen x="3000" y="370" width="1536" height="824" />
+    </state>
+    <state x="3604" y="513" key="NewPhpFileDialog/0.0.1500.960/3000.177.1536.824@3000.177.1536.824" timestamp="1584552356509" />
+    <state x="3604" y="706" key="NewPhpFileDialog/0.0.1500.960/3000.370.1536.824@3000.370.1536.824" timestamp="1585581964184" />
+    <state x="590" y="391" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1585276061226" />
+    <state x="252" y="123" key="SettingsEditor" timestamp="1584649608637">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="252" y="123" key="SettingsEditor/0.0.1500.960/3000.177.1536.824@0.0.1500.960" timestamp="1584620939290" />
+    <state x="3258" y="283" key="SettingsEditor/0.0.1500.960/3000.177.1536.824@3000.177.1536.824" timestamp="1584632458709" />
+    <state x="252" y="123" key="SettingsEditor/0.0.1500.960/3000.370.1536.824@0.0.1500.960" timestamp="1584649608637" />
+    <state width="200" height="441" key="SqlResolveConfigurable" timestamp="1584620311484">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="200" height="441" key="SqlResolveConfigurable/0.0.1500.960/3000.177.1536.824@0.0.1500.960" timestamp="1584620311484" />
+    <state x="467" y="93" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1584620280523">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="467" y="93" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1500.960/3000.177.1536.824@0.0.1500.960" timestamp="1584620280523" />
+    <state x="-1463" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1585851009791">
+      <screen x="-1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1463" y="261" key="com.intellij.ide.util.TipDialog/0.0.1500.960/-1920.0.1536.824@-1920.0.1536.824" timestamp="1585851009791" />
+    <state x="446" y="304" key="com.intellij.ide.util.TipDialog/0.0.1500.960/3000.177.1536.824@0.0.1500.960" timestamp="1584618094750" />
+    <state x="3457" y="438" key="com.intellij.ide.util.TipDialog/0.0.1500.960/3000.177.1536.824@3000.177.1536.824" timestamp="1584648964470" />
+    <state x="446" y="304" key="com.intellij.ide.util.TipDialog/0.0.1500.960/3000.370.1536.824@0.0.1500.960" timestamp="1585577502836" />
+    <state x="3457" y="631" key="com.intellij.ide.util.TipDialog/0.0.1500.960/3000.370.1536.824@3000.370.1536.824" timestamp="1584708267271" />
+    <state x="446" y="304" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1585427631082" />
+    <state x="481" y="136" key="com.intellij.troubleshooting.ui.CollectTroubleshootingInformationDialog" timestamp="1585249312747">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="481" y="136" key="com.intellij.troubleshooting.ui.CollectTroubleshootingInformationDialog/0.0.1500.960@0.0.1500.960" timestamp="1585249312747" />
+    <state x="744" y="0" width="761" height="965" key="dock-window-1" timestamp="1585272966997">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="93" y="93" width="1313" height="773" key="dock-window-1/0.0.1500.960/3000.177.1536.824@0.0.1500.960" timestamp="1584484199782" />
+    <state x="744" y="0" width="761" height="965" key="dock-window-1/0.0.1500.960@0.0.1500.960" timestamp="1585272966997" />
+    <state x="93" y="93" width="1313" height="773" key="dock-window-2" timestamp="1584484199783">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="93" y="93" width="1313" height="773" key="dock-window-2/0.0.1500.960/3000.177.1536.824@0.0.1500.960" timestamp="1584484199783" />
+    <state x="3802" y="562" key="run.anything.popup" timestamp="1585578556404">
+      <screen x="3000" y="370" width="1536" height="824" />
+    </state>
+    <state x="3802" y="562" key="run.anything.popup/0.0.1500.960/3000.370.1536.824@3000.370.1536.824" timestamp="1585578556404" />
+    <state x="783" y="224" key="run.anything.popup/0.0.1500.960@0.0.1500.960" timestamp="1585262936495" />
+    <state x="3048" y="517" width="689" height="679" key="search.everywhere.popup" timestamp="1585584499279">
+      <screen x="3000" y="370" width="1536" height="824" />
+    </state>
+    <state x="52" y="176" width="672" height="790" key="search.everywhere.popup/0.0.1500.960/3000.177.1536.824@0.0.1500.960" timestamp="1584620908219" />
+    <state x="3046" y="322" width="672" height="678" key="search.everywhere.popup/0.0.1500.960/3000.177.1536.824@3000.177.1536.824" timestamp="1584632397889" />
+    <state x="47" y="171" width="672" height="790" key="search.everywhere.popup/0.0.1500.960/3000.370.1536.824@0.0.1500.960" timestamp="1584649602500" />
+    <state x="3048" y="517" width="689" height="679" key="search.everywhere.popup/0.0.1500.960/3000.370.1536.824@3000.370.1536.824" timestamp="1585584499279" />
+    <state x="57" y="179" width="673" height="792" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1585442556367" />
+  </component>
+</project>
