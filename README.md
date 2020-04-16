@@ -5,7 +5,7 @@
         * ['Normal Day' Doral Schedule](https://www.doralacademyprep.org/pdf/BELL_SCHEDULE_UPDATED_9-5-2019.pdf)
         * ['Short Day' Doral Schedule](https://www.doralacademyprep.org/apps/bell_schedules/)
     * ***Suggestions:***
-        * Use an SQL table named `days` or something better and have the following information for each of the school days:
+        * Have an SQL table named `days` or something better and have the following information for each of the school days:
             * `date [Type: DATE; Ex. '2020-04-16']`
             * `type [Type: VARCHAR(2); 'N' or 'S']`
             * `day (or a better name)  [Type: VARCHAR(1); 'A' or 'B']`
