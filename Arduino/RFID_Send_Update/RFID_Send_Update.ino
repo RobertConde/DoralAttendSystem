@@ -17,14 +17,14 @@
 #include <MFRC522.h>
 
 // Wifi Details
-#define SSID "Conde Residence - Garage 2.4"
-#define PASS "heat7361"
+#define SSID "RAC Phone"
+#define PASS "Conde2003!"
 
 // Box Details
 const String BID = "0123456789";
 
 // URLs & Modes
-const String ARD_URL = "http://192.168.1.4/arduino";
+const String ARD_URL = "http://192.168.0.31/arduino";
 
 const String MODE_NAME[] = {"Update Location" , "Update Attendance"};
 const String MODE_URL[] = {"updLoc.php", "updAttend.php"};
