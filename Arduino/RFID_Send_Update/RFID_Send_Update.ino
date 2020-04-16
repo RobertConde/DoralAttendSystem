@@ -48,15 +48,14 @@ void setup() {
   // Wifi
   Serial.print("Connecting to Wifi");
   
-  for(int i = 0; i < sizeof(SSID)/sizeof(SSID[0]); ++i)
+  for(int i = 0; i < sizeof(SSID)/sizeof(SSID[0]); ++i)  // Connect to Wifi
     multiWifi.addAP(SSID[i], PASS[i]);
-  
-  //WiFi.begin(SSID, PASS);                  // Connect to Wifi
   
   while(multiWifi.run() != WL_CONNECTED) {     // Wait 'till connected to Wifi
     Serial.print(".");
     delay(1000);
   }
+  Serial.println();
   
   Serial.print("Local IP: ");               // Then print out local IP address
   Serial.println(WiFi.localIP());
