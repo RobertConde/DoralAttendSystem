@@ -30,4 +30,4 @@
                 * 4/16/2020 @ 7:53 AM → '1'
                 * 4/16/2020 @ 9:17 AM → '3'
                 * 4/16/2020 @ 9:17 AM → '2'
-> For all functions, when an invalid input is given, `die` with a proper error message (Ex. `die("ERROR: Date given is not a school day.");`).
+> For all functions, when an invalid input is given, `die` with a proper error message (Ex. `die("ERROR: Date given is not a school day!");`).
