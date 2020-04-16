@@ -12,13 +12,14 @@
 
 // Imports
 #include <ESP8266WiFi.h>
+#include <ESP8266WiFiMulti.h>
 #include <ESP8266HTTPClient.h>
 #include <SPI.h>
 #include <MFRC522.h>
 
 // Wifi Details
-#define SSID "RAC Phone"
-#define PASS "Conde2003!"
+const char* SSID[] = {"Conde Residence - 2.4" ,  "Conde Residence - Garage 2.4"};
+const char* PASS[] = {"heat7361",                "heat7361"};
 
 // Box Details
 const String BID = "0123456789";
@@ -33,7 +34,8 @@ const String MODE_URL[] = {"updLoc.php", "updAttend.php"};
 #define RST_PIN  D3
 #define SS_PIN   D2 // SDA
 
-// Initialize RFID Object
+// Initialize Objects
+ESP8266WiFiMulti multiWifi;
 MFRC522 rfid(SS_PIN, RST_PIN);
 
 void setup() {
@@ -44,11 +46,17 @@ void setup() {
   Serial.println();
   
   // Wifi
-  Serial.println("Connecting to Wifi...");
-  WiFi.begin(SSID, PASS);                  // Connect to Wifi
+  Serial.print("Connecting to Wifi");
   
-  while(WiFi.status() != WL_CONNECTED)     // Wait 'till connected to Wifi
-    delay(500);
+  for(int i = 0; i < sizeof(SSID)/sizeof(SSID[0]); ++i)
+    multiWifi.addAP(SSID[i], PASS[i]);
+  
+  //WiFi.begin(SSID, PASS);                  // Connect to Wifi
+  
+  while(multiWifi.run() != WL_CONNECTED) {     // Wait 'till connected to Wifi
+    Serial.print(".");
+    delay(1000);
+  }
   
   Serial.print("Local IP: ");               // Then print out local IP address
   Serial.println(WiFi.localIP());
