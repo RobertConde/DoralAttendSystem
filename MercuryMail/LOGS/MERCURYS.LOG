@@ -1,7 +1,0 @@
-T 20200317 120443 5e70bc8d Connection from 127.0.0.1
-T 20200317 120443 5e70bc8d HELO RAC-Laptop
-T 20200317 120443 5e70bc8d MAIL FROM:<robert0264171@gmail.com >
-T 20200317 120443 5e70bc8d RCPT TO:<robert0264171@gmail.com>
-E 20200317 120443 5e70bc8d Relay attempt by 127.0.0.1: from <robert0264171@gmail.com > to <robert0264171@gmail.com>.
-T 20200317 120443 5e70bc8d QUIT
-T 20200317 120443 5e70bc8d Connection closed with 127.0.0.1, 0 sec. elapsed.
