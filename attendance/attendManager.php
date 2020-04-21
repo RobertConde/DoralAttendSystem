@@ -13,7 +13,7 @@ $sessID = $_SESSION['id'];
 <!-- HTML -->
 <html lang="en">
 
-<title>Attendance</title>
+<title>Attendance Manager</title>
 
 <link rel="stylesheet" type="text/css" href="/style.css">
 
@@ -56,20 +56,19 @@ if (isset($_GET['per']) && isset($_GET['date'])) {
     $date = $_GET['date'];
 
     // Update attendance
-    if (isset($_POST['updID'])) {
+    if (isset($_POST['updMark'])) {
         require_once $_SERVER['DOCUMENT_ROOT'] . "/attendance/FUN-updAttend.php";
 
         // POST variables
         $updID = $_POST['updID'];
         $updMark = $_POST['updMark'];
-        echo "Update: $updID to $updMark<br>";
 
         echo updAttend($updID, $date, $per, $sessID, $updMark) ?
             "Successfully updated attendance for $updID." :
             "Failed to update attendance for $updID.";
     }
 
-    // Table header
+    // Header to table
     echo "<h2><u>Period $per of $date</u></h2>";
 
     // Get attendance
@@ -107,9 +106,7 @@ if (isset($_GET['per']) && isset($_GET['date'])) {
         foreach (MARKS as $mark)
             echo "<input type='submit' name='updMark' value='$mark'>";
 
-        echo "</form>
-			</td>
-		</tr>";
+        echo "</form> </td> </tr>";
     }
 
     echo "</table>";

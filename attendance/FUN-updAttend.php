@@ -17,7 +17,7 @@ function updAttend($studID, $date, $per, $facID, $updMark) {
 	$verify = $sql_conn->query($sql_verify);
 
 	if (mysqli_num_rows($verify) < 1)
-		die("Student doesn't attend that class for the given period.");
+		return false;
 
 	// Delete prior attendance entry
 	$sql_delete = "DELETE FROM attendance
@@ -25,14 +25,13 @@ function updAttend($studID, $date, $per, $facID, $updMark) {
 	$delete = $sql_conn->query($sql_delete);
 
 	if (!$delete)
-		return $sql_conn->error;
+		return false;
 
 	// Insert updated attendance entry
 	$sql_insert = "INSERT INTO attendance (studID, date, per, facID, mark)
 		VALUES ($studID, $date, $per, $facID, '$updMark')";
-	$sql_conn->query($sql_insert);
 
-	return $sql_conn->error;
+	return $sql_conn->query($sql_insert);
 }
 
 ?>
