@@ -32,7 +32,7 @@ if (isset($_POST['login'])) {
 ?>
 
 <!--HTML-->
-<html>
+<html lang="en">
 
 <title>Login</title>
 

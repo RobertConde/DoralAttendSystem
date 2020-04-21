@@ -23,9 +23,8 @@ function createAccount($id, $email)
     <b>Password:</b> $tempPass<br>
     <br>
     <i>Password can be changed at the login page.</i>";
-    $sendEmail = sendEmail($email, "DAAS: Login Credentials", $sendEmail_body);
 
-    return $sendEmail;
+    return sendEmail($email, "DAAS: Login Credentials", $sendEmail_body);
 }
 
 ?>

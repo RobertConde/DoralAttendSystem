@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/require/connectSQL.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/sql/connectSQL.php";
 session_start();
 
 // Set POST contents to local variables

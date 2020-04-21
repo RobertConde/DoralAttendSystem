@@ -30,7 +30,7 @@ function updAttend($studID, $date, $per, $facID, $updMark) {
 	// Insert updated attendance entry
 	$sql_insert = "INSERT INTO attendance (studID, date, per, facID, mark)
 		VALUES ($studID, $date, $per, $facID, '$updMark')";
-	$insert = $sql_conn->query($sql_insert);
+	$sql_conn->query($sql_insert);
 
 	return $sql_conn->error;
 }
