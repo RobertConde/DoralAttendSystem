@@ -26,8 +26,12 @@
             * Returns the period number corresponding with the given date and time.
             * `per("", "")` returns the current period (of the current timestamp).
             * Must take into account short days (use `dayType`) and if the day is an 'A' or 'B' day (use `dayAB`).
-            * *Ex.
+            * *Ex.*
                 * 4/16/2020 @ 7:53 AM → '1'
                 * 4/16/2020 @ 9:17 AM → '3'
                 * 4/16/2020 @ 9:17 AM → '2'
+		* `sendAttend($date, $per, $facID)`
+			* Sends the attendance of the given date and period for the given teacher to the teacher's email.
+			* Must distinguish clearly between who was present and who was not.
+			* Use the `sendEmail` function to send the email.
 > For all functions, when an invalid input is given, `die` with a proper error message (Ex. `die("ERROR: Date given is not a school day!");`).
