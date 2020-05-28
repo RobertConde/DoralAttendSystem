@@ -6,7 +6,7 @@ session_start();
 if (isset($_SESSION['id']))
     header("location: http://" . $_SERVER['HTTP_HOST'] . "/attendance/attendManager.php");
 
-require_once $_SERVER['DOCUMENT_ROOT'] . "/sql/connectSQL.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/sql/SQL.php";
 
 // Login if credentials have been POSTed
 if (isset($_POST['login'])) {
@@ -16,7 +16,7 @@ if (isset($_POST['login'])) {
 
 	// Find if the id & password corresponds to an account
 	$sql_login = "SELECT * FROM accounts WHERE id = $id AND pass = '$pass'";
-	$login = $sql_conn->query($sql_login);
+	$login = $sql->query($sql_login);
 
 	// If an account exists then login and go to attendance manager, else go back to login page
 	if(mysqli_num_rows($login) > 0) {
@@ -38,6 +38,12 @@ if (isset($_POST['login'])) {
 
 <h1><u>Login Page</u></h1>
 
+<?php
+echo "7";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/Person.php";
+Person::createAccount($sql, 0264171);
+?>
+
 <form action="" method="post">
 	<b>
 
@@ -56,3 +62,4 @@ if (isset($_POST['login'])) {
 </form>
 
 </html>
+

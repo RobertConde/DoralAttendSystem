@@ -1,8 +1,8 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/sql/connectSQL.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/sql/SQL.php";
 
 function updSchedule($studID, $per, $updFac) {
-    global $sql_conn;
+    global $sql;
 
     // Update schedule
     $sql_insert = "INSERT INTO schedules (id, p$per)
@@ -10,7 +10,7 @@ function updSchedule($studID, $per, $updFac) {
         ON DUPLICATE KEY UPDATE
             p$per = $updFac";
 
-    return $sql_conn->query($sql_insert);
+    return $sql->query($sql_insert);
 }
 
 ?>

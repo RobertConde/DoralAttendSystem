@@ -1,20 +1,20 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/sql/connectSQL.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/sql/SQL.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . "/email/sendEmail.php";
 
 function createAccount($id, $email)
 {
-    global $sql_conn;
+    global $sql;
     
     // Create account
     $tempPass = substr(md5(rand()), 0, 8);
 
     $sql_create = "INSERT INTO accounts
         VALUES ($id, '$tempPass')";
-    $create = $sql_conn->query($sql_create);
+    $create = $sql->query($sql_create);
 
     if (!$create)
-        return $sql_conn->error;
+        return $sql->error;
     
     // Send email
     $sendEmail_body =

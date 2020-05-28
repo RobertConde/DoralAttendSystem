@@ -1,5 +1,0 @@
-<?php
-
-/* ALL FUNCTIONS HERE */
-
-?>

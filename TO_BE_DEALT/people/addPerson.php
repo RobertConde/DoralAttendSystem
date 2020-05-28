@@ -1,7 +1,7 @@
 <!-- PHP -->
 <?php
 if (isset($_POST['add'])) {
-	require_once $_SERVER['DOCUMENT_ROOT'] . "/sql/connectSQL.php";
+	require_once $_SERVER['DOCUMENT_ROOT'] . "/sql/SQL.php";
 
 	// POST
 	$id = $_POST['id'];
@@ -15,12 +15,12 @@ if (isset($_POST['add'])) {
 	// Add person
 	$sql_addPerson = "INSERT INTO people
 		VALUES ($id, $isFac, '$fName', '$lName', '$email', " . ($uid == '' ? "NULL" : "'$uid'") . ", " . ($room == '' ? "NULL" : "'$room'") . ")";
-	$addPerson = $sql_conn->query($sql_addPerson);
+	$addPerson = $sql->query($sql_addPerson);
 
 	if ($addPerson)
 		echo "<center><h2>Successfully added person.</h2></center>";
 	else
-		die ("<center><h2>FAILED: " . $sql_conn->error . "</h2></center>");
+		die ("<center><h2>FAILED: " . $sql->error . "</h2></center>");
 
 	// Create account if person is faculty
 	if ($isFac) {

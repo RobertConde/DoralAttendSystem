@@ -5,6 +5,6 @@
 		$uri = 'http://';
 	}
 	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/accounts/login.php');
+	//header('Location: '.$uri.'/accounts/login.php');  /* TODO: Main Page Redirect */
 	exit;
 ?>

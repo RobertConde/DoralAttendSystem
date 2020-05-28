@@ -13,13 +13,13 @@
 
 <!-- PHP -->
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/sql/connectSQL.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/sql/SQL.php";
 
 // Get locations
 $sql_locs = "SELECT p.id, p.uid, p.fName, p.lName, l.loc, l.timestamp
 	FROM people p
 	LEFT JOIN locations l ON p.id = l.id";
-$locs = $sql_conn->query($sql_locs);
+$locs = $sql->query($sql_locs);
 
 // Display locations
 echo "<table>",

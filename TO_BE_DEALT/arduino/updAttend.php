@@ -13,7 +13,7 @@ if (!verifyBox($bid))
 
 // Get studID
 $sql_stud = "SELECT id FROM people WHERE uid = '$uid'";
-$stud = $sql_conn->query($sql_stud);
+$stud = $sql->query($sql_stud);
 
 $studID = mysqli_fetch_assoc($stud)['id'];
 
@@ -21,7 +21,7 @@ $studID = mysqli_fetch_assoc($stud)['id'];
 $sql_fac = "SELECT * FROM people p
 			JOIN boxes b ON p.room = b.loc
 			WHERE bid = '$bid'";
-$fac = $sql_conn->query($sql_fac);
+$fac = $sql->query($sql_fac);
 
 $facID = mysqli_fetch_assoc($fac)['id'];
 

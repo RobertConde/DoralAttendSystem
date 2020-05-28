@@ -1,13 +1,13 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/sql/connectSQL.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/sql/SQL.php";
 
 function updLoc($uid, $bid)
 {
-    global $sql_conn;
+    global $sql;
 
     // Get ID from UID
     $sql_getID = "SELECT id FROM people WHERE uid = '$uid'";
-    $getID = $sql_conn->query($sql_getID);
+    $getID = $sql->query($sql_getID);
 
     if (mysqli_num_rows($getID) < 1)
         return "No ID associated with that UID.";
@@ -16,7 +16,7 @@ function updLoc($uid, $bid)
 
     // Get location from BID
     $sql_getLoc = "SELECT loc FROM boxes WHERE bid = '$bid'";
-    $getLoc = $sql_conn->query($sql_getLoc);
+    $getLoc = $sql->query($sql_getLoc);
 
     if (mysqli_num_rows($getLoc) < 1)
         return "No location associated with that BID.";
@@ -27,9 +27,9 @@ function updLoc($uid, $bid)
     $sql_update = "INSERT INTO locations
         VALUES ($id, '$loc', CURRENT_TIMESTAMP)
         ON DUPLICATE KEY UPDATE loc = '$loc', timestamp = CURRENT_TIMESTAMP";
-    $update = $sql_conn->query($sql_update);
+    $update = $sql->query($sql_update);
 
-    return $sql_conn->error;
+    return $sql->error;
 }
 
 ?>

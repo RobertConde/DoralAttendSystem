@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/sql/connectSQL.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/sql/SQL.php";
 session_start();
 
 // Set POST contents to local variables
@@ -8,7 +8,7 @@ $pass = $_POST['pass'];
 
 // Find the account that the id & password may correspond to
 $sql_login = "SELECT id FROM accounts WHERE id = $id AND pass = '$pass'";
-$login = $sql_conn->query($sql_login);
+$login = $sql->query($sql_login);
 
 // If an account exists then login and go to attendance manager, else go back to login page
 if(mysqli_num_rows($login) > 0) {

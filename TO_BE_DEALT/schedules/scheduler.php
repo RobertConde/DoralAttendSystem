@@ -17,7 +17,7 @@ $sessID = $_SESSION['id'];
 
 <link rel="stylesheet" type="text/css" href="/style.css">
 
-<form action="/accounts/logout.php" method="get">
+<form action="/TO_BE_DEALT/accountsRUCTURED/accounts/logout.php" method="get">
     <input type="submit" value="Logout" style="float: right">
 </form>
 
@@ -41,7 +41,7 @@ $sessID = $_SESSION['id'];
 
 <!-- PHP -->
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/sql/connectSQL.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/sql/SQL.php";
 
 // Update & display schedule
 if (isset($_GET['id'])) {
@@ -74,7 +74,7 @@ if (isset($_GET['id'])) {
     WHERE
         p.id = $id;
 	";
-    $schedule = mysqli_fetch_assoc($sql_conn->query($sql_schedule));
+    $schedule = mysqli_fetch_assoc($sql->query($sql_schedule));
 
     // Table header
     echo "<table>",

@@ -17,7 +17,7 @@ $sessID = $_SESSION['id'];
 
 <link rel="stylesheet" type="text/css" href="/style.css">
 
-<form action="/accounts/logout.php" method="get">
+<form action="/TO_BE_DEALT/accountsRUCTURED/accounts/logout.php" method="get">
     <input type="submit" value="Logout" style="float: right">
 </form>
 
@@ -45,7 +45,7 @@ $sessID = $_SESSION['id'];
 
 <!-- PHP -->
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/sql/connectSQL.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/sql/SQL.php";
 
 const MARKS = ['P', 'T', 'A'];
 
@@ -81,7 +81,7 @@ if (isset($_GET['per']) && isset($_GET['date'])) {
 		((a.per = $per AND a.facID = $sessID) OR s.p$per = $sessID)
 	ORDER BY lName, fName, id;
 	";
-    $attend = $sql_conn->query($sql_attend);
+    $attend = $sql->query($sql_attend);
 
     // Display attendance
     echo "<table>",

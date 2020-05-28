@@ -1,6 +1,8 @@
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
+sendEmail("robert0264171@gmail.com", "SUBJ", "BDY");
 function sendEmail($to, $subj, $body)
 {
     require_once $_SERVER['DOCUMENT_ROOT'] . "/email/PHPMailer/PHPMailer.php";
@@ -14,8 +16,11 @@ function sendEmail($to, $subj, $body)
     $user = $config['user'];
     $pass = $config['pass'];
 
+    echo "$user | $pass";
+
     // Create mailer object for PHPMailer
     $mail = new PHPMailer();
+    $mail->SMTPDebug=2;
 
     // Email config
     $mail->isSMTP();
